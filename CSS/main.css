@@ -1,0 +1,44 @@
+html
+{
+  height: 100%;
+}
+
+
+body {
+	width: 900;
+	position: static;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12;
+	color:#000080;
+	padding: 0;
+	margin: 10;
+	background-position: 50% 50%
+}
+
+H1{
+	font-size: 14pt;
+}
+h2{
+	font-size: 14pt;
+	color: GREEN;
+}
+a:link { color: #000080; font-weight:bold;}
+a:active { color: #ff0000; }
+a:visited { color: #800080; }
+
+td.border 
+{
+	border-width: 5pt;
+	border-style: solid;
+	border: inset 2pt;
+	border: outset 2pt;
+	border-spacing: 3pt 1pt;	
+}
+
+
+th.border 
+{
+	border-width: 1px;
+	border-color: #FFD300;
+	border-style: solid;
+}

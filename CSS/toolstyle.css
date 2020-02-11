@@ -1,0 +1,124 @@
+input.uppercase{  
+	text-transform: uppercase; 
+	text-align: right;
+}
+.gradient {
+	width: 221px;
+	background: transparent url('../Images/bg.jpg') no-repeat;
+	color : #747862;
+	height:20px;
+	border:0;
+	padding:4px 8px;
+	margin-bottom:0px;
+	text-align: right;
+}
+table.tintable {
+	font-family: courier new;
+	border-width: thin;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: black;
+	border-collapse: collapse;
+	background-color: white;
+}
+.tintable th {
+	font-size:12;
+	border-width: thin;
+	border-style: solid;
+	border-color: black;
+	background-color: lightblue;
+}
+
+.tintable td {
+	border-width: thin;
+	font-size:12;
+	border-style: solid;
+	border-color: black;
+}
+
+.h1 {
+	vertical-align: top; 
+	text-align: center;
+	background-color: cyan;
+}
+.h2 {
+	vertical-align: top; 
+	text-align: center;
+	background-color: lightblue;
+}
+
+.tintable input {
+
+}
+
+.text{
+	border: 1px solid;
+	height:20px;
+	color:BLACK;
+}
+.textarea{
+	background-color:transparent;
+	border: 0px solid;
+	color:BLACK;
+}
+
+.button{
+   background-color:#0099FF;
+   border-top-style:outset;
+   border-top-color:#0066FF;
+   border-bottom-style:outset;
+   border-bottom-color:#0066FF;
+   border-left-style:outset;
+   border-left-color:#0066FF;
+   border-right-style:outset;
+   border-right-color:#0066FF;
+}
+.btnew {
+	background-color: #000000;
+	color: #FFFFFF;
+	float: right;
+	font-size:10;
+	padding: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.small-btn {
+	width: 55px;
+	height: 70px;
+}
+
+.tintable select{
+	font-family: courier new;
+	font-size:12;
+	background-color: white;
+}
+
+.Mandatory { 
+  background-color:LIGHTBLUE;
+  font-family:courier;
+  font-size:12;
+  color:#000000;
+ } 
+.Optional { 
+  background-color:ORANGE;
+  font-family:courier;
+  font-size:12;
+  color:#000000;
+ }
+.field_set{
+ border-color:LIGHTBLUE;
+ border-width:5px; 
+ border-style:double;
+}
+
+span.dropt {border-bottom: thin dotted; }
+span.dropt:hover {text-decoration: none; background: #ffffff; z-index: 6; }
+span.dropt:hover span {left: 4%; background: #ffffff; color:#0040ff; margin: 40px 0 0 370px; z-index:6;} 
+span.dropt span {
+	position: absolute; left: -9999px;
+	margin: 4px 0 0 0px; padding: 3px 3px 3px 3px; 
+	border-style:solid; border-color:black; border-width:1px;
+}
+

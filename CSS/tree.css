@@ -1,0 +1,40 @@
+.treeview ul{
+	margin: 0;
+	padding: 0;
+}
+
+.treeview li{
+	background:  url(http://ntsrvalmb.fishkill.ibm.com:8080/www/cgi-bin/SSA_Tool_v2/Images/list.png) no-repeat left center;
+	list-style-type: none;
+	padding-left: 22px;
+	margin-bottom: 3px;
+	font-size:16;
+	font-family: "Times New Roman",Georgia,Serif;
+	text-decoration:underline;
+	font-weight:normal;
+	text-align:left;
+}
+
+.treeview li.submenu{ 
+	background:  url(http://ntsrvalmb.fishkill.ibm.com:8080/www/cgi-bin/SSA_Tool_v2/Images/closed.png) no-repeat left 1px;
+	cursor: pointer;
+	font-size:16;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+.treeview li.submenu ul{
+	cursor: pointer;
+	font-size:14;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.treeview ul.submenu li{ 
+	font-size:14;
+	cursor: pointer;
+	text-decoration:none;
+	color:darkblue;
+	font-weight:normal;
+}

@@ -1,0 +1,8 @@
+%SystemDrive%/*
+*.dat
+*.arc
+*.don
+cgi-bin
+jQuery
+2del
+Logs

@@ -1,0 +1,30 @@
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+ <html>
+    <head>
+        <meta content="text/html; charset=ISO-8859-2" http-equiv="Content-Type">
+        <link rel="shortcut icon" href="favicon.ico">
+        <title>Localhost INDEX page</title>
+        <script src="jQuery/jQuery.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+        /*fetch('http://localhost:8080/kfc')
+                .then((res) => {
+                    res.json().then((data) => {
+                        console.log(data);
+                    });
+                })
+                .catch((err) => {
+                    console.log(err);
+                });*/
+        $.ajax({
+            type: 'GET',
+            url: 'http://localhost:8080/kfc',
+            dataType: 'json',
+            success: function(data) {
+                console.log(data)
+            }
+        });
+        </script>
+    </body>    
+ </html>
